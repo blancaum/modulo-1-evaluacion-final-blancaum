@@ -1,8 +1,9 @@
 .menu {
     background-color: $color-blue;
-    display: fixed;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
     width: 37.1px;
     height: 22px;
     
