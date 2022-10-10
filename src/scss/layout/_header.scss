@@ -9,13 +9,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media all and (min-width:768px) {
+        width: 41.6px;
+        height: 44px;;
+    }
     
     &__link{
-        /*top right bottom left*/
-        padding: 5px 11.8px 5px 11.8px;
+        padding: 11.8px;
     }
     &__img{
         width: 13.5px;
-
+        @media all and (min-width:768px) {
+            width: 15.1px;
+            height: 14px;
+        }
     }
 }
