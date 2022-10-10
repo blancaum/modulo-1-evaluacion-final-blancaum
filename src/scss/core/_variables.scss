@@ -1,7 +1,7 @@
 // fonts
-$font-main: 'Roboto', sans-serif;
-$font-titles: 'Roboto Slab', serif;
-$font-symbols: 'Zapf Dingbats Regular';
+$font-main: "Roboto", sans-serif;
+$font-titles: "Roboto Slab", serif;
+$font-symbols: "Zapf Dingbats Regular";
 
 // colors
 $color-orange: #f26002;
@@ -13,6 +13,6 @@ $color-darkgrey: #4a4a4a;
 $color-iceblue: #eff9ff;
 
 :root {
-    font-family: $font-main;
-    font-family: 100%;
+  font-family: $font-main;
+  font-family: 100%;
 }

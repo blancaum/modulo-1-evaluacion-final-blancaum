@@ -1,50 +1,76 @@
 .reasons {
-    background-color: $color-iceblue;
-    display: grid;
-    grid-column: 1fr;
-    justify-items: center;
-    align-items: start;
-    padding: 29px 15px 60px;
-    &__h2{
-        font-family: $font-titles;
+  background-color: $color-iceblue;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: start;
+  padding: 29px 15px 60px;
+  @media all and (min-width: 768px) {
+    padding: 36px 40px 60px 35.7px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 27.7px;
+  }
+  &__h2 {
+    font-family: $font-titles;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: capitalize;
+    align-self: start;
+    margin-bottom: 49px;
+    @media all and (min-width: 768px) {
+      font-size: 1.625rem;
+      line-height: 1.73;
+      margin-bottom: 36px;
+      grid-column: span 3;
+    }
+  }
+  &__article {
+    margin: 0px 53px 44px;
+    @media all and (min-width: 768px) {
+      margin: 0px 0px 57px;
+    }
+    &--h3 {
+      font-family: $font-titles;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.67;
+      text-align: center;
+      @media all and (min-width: 768px) {
         font-size: 1.5rem;
-        font-weight: bold;
         line-height: 1.25;
-        text-align: center;
-        text-transform: capitalize;
-        align-self: start;
-        margin-bottom: 49px;
+        margin-bottom: 18px;
+      }
     }
-    &__article{
-        margin: 0px 53px 44px;
-        &--h3{
-            font-family: $font-titles;
-            font-size: 1.125rem;
-            font-weight: 700;
-            line-height: 1.67;
-            text-align: center;
-        }
-        &--p{
-            font-size: 1.125rem;
-            line-height: 1.67;
-            text-align: center;
-        }
-    }
-    &__button{
-        text-decoration: none;
-        background-color: $color-orange;
-        color: $color-white;
-        font-family: $font-main;
+    &--p {
+      font-size: 1.125rem;
+      line-height: 1.67;
+      text-align: center;
+      @media all and (min-width: 768px) {
         font-size: 1.25rem;
-        font-weight: 500;
-        border: none;
-        border-radius: 22.5px;
-        padding: 12.5px 30.5px;
-        &:hover{
-            /*[property] [duration] [timing-function] [delay];*/
-            box-shadow: -2px -2px darken($color-orange,10%);
-            transition: transform 0.3s;
-            transform: translate(10px, -5px) scale(1.1);
-        }
+        line-height: 1.5;
+      }
     }
+  }
+  &__button {
+    text-decoration: none;
+    background-color: $color-orange;
+    color: $color-white;
+    font-family: $font-main;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 22.5px;
+    padding: 12.5px 30.5px;
+    &:hover {
+      box-shadow: -2px -2px darken($color-orange, 10%);
+      transition: transform 0.3s;
+      transform: translate(10px, -5px) scale(1.1);
+    }
+    @media all and (min-width: 768px) {
+      padding: 12.5px 42.5px 12.5px 43.5px;
+      grid-column: span 3;
+    }
+  }
 }

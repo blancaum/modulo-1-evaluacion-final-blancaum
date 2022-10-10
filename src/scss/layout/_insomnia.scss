@@ -1,43 +1,56 @@
-.insomnia{
-    display: flex;
-    flex-direction: column;
-    margin: 24.9px 0 0;
-    padding: 37px 15px 35px;
-    &__small{
-        color: $color-lightblue;
-        font-size: 0.875rem;
-        text-transform: capitalize;
-        line-height: 2.14;
+.insomnia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 61.9px 15px 45px;
+  @media all and (min-width: 768px) {
+    padding: 37px 39px 60px;
+  }
+  &__small {
+    color: $color-lightblue;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    line-height: 2.14;
+  }
+  &__h2 {
+    font-family: $font-titles;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.25;
+    @media all and (min-width: 768px) {
+      font-size: 1.625rem;
+      line-height: 1.73;
     }
-    &__h2{
-        font-family: $font-titles;
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-transform: capitalize;
-        line-height: 1.25;
+  }
+  &__p {
+    color: $color-darkgrey;
+    font-size: 1.125rem;
+    line-height: 1.67;
+    margin: 20px 0 26px;
+    @media all and (min-width: 768px) {
+      font-size: 1.25rem;
+      line-height: 1.5;
     }
-    &__p {
-        color: $color-darkgrey;
-        font-size: 1.125rem;
-        line-height: 1.67;
-        margin: 20px 0 26px;
+  }
+  &__button {
+    align-self: flex-start;
+    color: $color-orange;
+    background-color: $color-white;
+    text-decoration: none;
+    text-align: center;
+    font-family: $font-main;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 22.5px;
+    border: solid 2px $color-orange;
+    &:hover {
+      transition: transform 1s;
+      transform: rotate(360deg) scale(1.1);
     }
-    &__button{
-        align-self: flex-start;
-        color:$color-orange;
-        background-color: $color-white;
-        text-decoration: none;
-        text-align: center;
-        font-family: $font-main;
-        font-size: 1.25rem;
-        font-weight: 500;
-        padding: 10px 25px;
-        margin: 0 0 10px;
-        border-radius: 22.5px;
-        border: solid 2px $color-orange;
-        &:hover{
-            transition: transform 1s;
-            transform: rotate(360deg) scale(1.1);
-        }
+    @media all and (min-width: 768px) {
+      padding: 10.5px 31px;
     }
+  }
 }
