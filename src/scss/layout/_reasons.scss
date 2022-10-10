@@ -40,5 +40,11 @@
         border: none;
         border-radius: 22.5px;
         padding: 12.5px 30.5px;
+        &:hover{
+            /*[property] [duration] [timing-function] [delay];*/
+            box-shadow: -2px -2px darken($color-orange,10%);
+            transition: transform 0.3s;
+            transform: translate(10px, -5px) scale(1.1);
+        }
     }
 }

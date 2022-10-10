@@ -35,5 +35,9 @@
         margin: 0 0 10px;
         border-radius: 22.5px;
         border: solid 2px $color-orange;
+        &:hover{
+            transition: transform 1s;
+            transform: rotate(360deg) scale(1.1);
+        }
     }
 }
