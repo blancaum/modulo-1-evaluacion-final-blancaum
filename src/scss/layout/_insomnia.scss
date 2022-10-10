@@ -23,13 +23,15 @@
         margin: 20px 0 26px;
     }
     &__button{
+        align-self: flex-start;
         color:$color-orange;
         background-color: $color-white;
+        text-decoration: none;
+        text-align: center;
         font-family: $font-main;
         font-size: 1.25rem;
         font-weight: 500;
-        width: 76px;
-        height: 45px;
+        padding: 10px 25px;
         margin: 0 0 10px;
         border-radius: 22.5px;
         border: solid 2px $color-orange;

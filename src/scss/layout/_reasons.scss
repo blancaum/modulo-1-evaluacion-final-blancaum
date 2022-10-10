@@ -31,15 +31,14 @@
         }
     }
     &__button{
-        width: 184px;
-        height: 45px;
+        text-decoration: none;
         background-color: $color-orange;
         color: $color-white;
         font-family: $font-main;
         font-size: 1.25rem;
         font-weight: 500;
-        line-height: 2.25;
         border: none;
         border-radius: 22.5px;
+        padding: 12.5px 30.5px;
     }
 }
