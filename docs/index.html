@@ -7,7 +7,7 @@
       Anonymous Proxy - Módulo 1 - Evaluación final - Blanca Ubis Martínez
     </title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -17,7 +17,7 @@
   <!-- Módulo 1 - Evaluación final - Blanca Ubis Martínez -->
 
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="menu">
         <a class="menu__link" href="https://adalab.es/" target="_blank"
           ><img class="menu__img" src="./assets/images/ico-menu.svg" alt="Menu icon"
@@ -46,7 +46,7 @@
           Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <input class="insomnia__button" type="button" value="Go" />
+        <a class="insomnia__button" href="https://adalab.es/" target="_blank"> Go </a>
       </section>
 
       <section class="reasons" id="reasons">
@@ -66,33 +66,53 @@
           <p class="reasons__article--p">Aliquam in dolor et dolor tincidunt.</p>
         </article>
 
+        <a class="reasons__button" href="https://adalab.es/" target="_blank"
+          >More reasons</a
+        >
       </section>
 
     </main>
 
     <footer class="footer">
-      <div class="footer__innerlinks">
-        <a class="footer__innerlinks--link" href="https://adalab.es/">Articles</a>
-        <a class="footer__innerlinks--link" href="https://adalab.es/">Books</a>
-        <a class="footer__innerlinks--link" href="https://adalab.es/">Events</a>
-        <a class="footer__innerlinks--link" href="https://adalab.es/">Reasons</a>
-        <a class="footer__innerlinks--link" href="https://adalab.es/">Tips</a>
+      <a class="footer__button" href="./index.html#header">
+        <img
+          class="footer__button--img"
+          src="./assets/images/ico-arrow.svg"
+          alt="Icono flecha subir"
+        />
+      </a>
+      <div class="footer__inner">
+        <a class="footer__inner--link" href="https://adalab.es/">Articles</a>
+        <a class="footer__inner--link" href="https://adalab.es/">Books</a>
+        <a class="footer__inner--link" href="https://adalab.es/">Events</a>
+        <a class="footer__inner--link" href="https://adalab.es/">Reasons</a>
+        <a class="footer__inner--link" href="https://adalab.es/">Tips</a>
       </div>
-      <div class="footer__outsidelinks">
+      <div class="footer__socialmedia">
         <a
-          class="footer__outsidelinks--link"
+          class="footer__socialmedia--link"
           href="https://adalab.es/"
           target="_blank"
           >Twitter</a
         >
-        <a href="https://adalab.es/" target="_blank">Instagram</a>
-        <a href="https://adalab.es/" target="_blank">Mastodon.social</a>
+        <a
+          class="footer__socialmedia--link"
+          href="https://adalab.es/"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          class="footer__socialmedia--link"
+          href="https://adalab.es/"
+          target="_blank"
+          >Mastodon.social</a
+        >
       </div>
       <div class="footer__copy">
-        <p class="footer__copy--p copy">&copy2022</p>
-        <p class="footer__copy--p components">
+        <small class="footer__copy--small">&copy;2022</small>
+        <small class="footer__copy--small">
           we <span class="footer__copy--heart">❤︎</span> components
-        </p>
+        </small>
       </div>
     </footer>
 
