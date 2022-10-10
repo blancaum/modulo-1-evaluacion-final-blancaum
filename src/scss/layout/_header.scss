@@ -5,15 +5,17 @@
     left: 0;
     z-index: 100;
     width: 37.1px;
-    height: 22px;
+    height: 37.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     &__link{
         /*top right bottom left*/
-        padding: 0px 11.8px 5px 11.8px;
+        padding: 5px 11.8px 5px 11.8px;
     }
     &__img{
         width: 13.5px;
-        height: 9.7px;
-        transform:translateY(-50%);
+
     }
 }

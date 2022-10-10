@@ -1,0 +1,45 @@
+.reasons {
+    background-color: $color-iceblue;
+    display: grid;
+    grid-column: 1fr;
+    justify-items: center;
+    align-items: start;
+    padding: 29px 15px 60px;
+    &__h2{
+        font-family: $font-titles;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        text-transform: capitalize;
+        align-self: start;
+        margin-bottom: 49px;
+    }
+    &__article{
+        margin: 0px 53px 44px;
+        &--h3{
+            font-family: $font-titles;
+            font-size: 1.125rem;
+            font-weight: 700;
+            line-height: 1.67;
+            text-align: center;
+        }
+        &--p{
+            font-size: 1.125rem;
+            line-height: 1.67;
+            text-align: center;
+        }
+    }
+    &__button{
+        width: 184px;
+        height: 45px;
+        background-color: $color-orange;
+        color: $color-white;
+        font-family: $font-main;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 2.25;
+        border: none;
+        border-radius: 22.5px;
+    }
+}
