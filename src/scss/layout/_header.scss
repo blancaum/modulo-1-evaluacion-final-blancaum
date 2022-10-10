@@ -1,27 +1,29 @@
 .menu {
-    background-color: $color-blue;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 37.1px;
-    height: 37.1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media all and (min-width:768px) {
-        width: 41.6px;
-        height: 44px;;
+  background-color: $color-blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 37.1px;
+  height: 37.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    width: 41.6px;
+    height: 44px;
+  }
+  @media all and (min-width: 1280px) {
+    width: 44px;
+    height: 44px;
+  }
+  &__link {
+    padding: 15px;
+  }
+  &__img {
+    width: 14px;
+    @media all and (min-width: 768px) {
+      width: 16px;
     }
-    
-    &__link{
-        padding: 11.8px;
-    }
-    &__img{
-        width: 13.5px;
-        @media all and (min-width:768px) {
-            width: 15.1px;
-            height: 14px;
-        }
-    }
+  }
 }
