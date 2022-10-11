@@ -72,14 +72,5 @@
         height: 11.7px;
       }
     }
-    animation: 0.7s infinite alternate buttondown;
-    @keyframes buttondown {
-      from {
-        transform: translateY(0%);
-      }
-      to {
-        transform: translateY(10%);
-      }
-    }
   }
 }
