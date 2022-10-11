@@ -25,7 +25,7 @@
       width: 20.6px;
       height: 24px;
     }
-    animation: 0.7s infinite alternate buttonup;
+    animation: 0.7s infinite alternate-reverse buttonup;
     @keyframes buttonup {
       from {
         transform: translateY(-60%);
