@@ -10,6 +10,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 27.7px;
   }
+  @media all and (min-width: 1280px) {
+    padding: 61px 85px 60px 81.2px;
+    grid-column-gap: 26.2px;
+  }
+
   &__h2 {
     font-family: $font-titles;
     font-size: 1.5rem;
@@ -24,6 +29,11 @@
       line-height: 1.73;
       margin-bottom: 36px;
       grid-column: span 3;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 2rem;
+      line-height: 1.41;
+      margin-bottom: 43px;
     }
   }
   &__article {
@@ -71,6 +81,10 @@
     @media all and (min-width: 768px) {
       padding: 12.5px 42.5px 12.5px 43.5px;
       grid-column: span 3;
+    }
+    @media all and (min-width: 1280px) {
+      text-transform: capitalize;
+      padding: 12.5px 63.172px;
     }
   }
 }
