@@ -8,6 +8,9 @@
   @media all and (min-width: 768px) {
     padding: 5px 39px 40px;
   }
+  @media all and (min-width: 1280px) {
+    padding: 5px 370px 40px;
+  }
   &__button {
     background-color: $color-white;
     width: 45px;
@@ -22,13 +25,13 @@
       width: 20.6px;
       height: 24px;
     }
-    animation: 0.8s infinite alternate buttonup;
+    animation: 0.7s infinite alternate buttonup;
     @keyframes buttonup {
       from {
-        transform: translateY(-50%);
+        transform: translateY(-60%);
       }
       to {
-        transform: translateY(-75%);
+        transform: translateY(-80%);
       }
     }
     @media all and (min-width: 768px) {
