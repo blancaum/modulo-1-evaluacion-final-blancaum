@@ -74,9 +74,9 @@
     border-radius: 22.5px;
     padding: 12.5px 30.5px;
     &:hover {
-      box-shadow: -2px -2px darken($color-orange, 10%);
+      box-shadow: 0 8px 8px -6.4px darken($color-orange, 10%);
       transition: transform 0.3s;
-      transform: translate(10px, -5px) scale(1.1);
+      transform: translateY(-7px) scale(1.1);
     }
     @media all and (min-width: 768px) {
       padding: 12.5px 42.5px 12.5px 43.5px;

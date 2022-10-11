@@ -65,6 +65,12 @@
     }
     @media all and (min-width: 1280px) {
       padding: 10.5px 65.5px;
+      &:hover {
+        box-shadow: -5px 5px 10px 0 lighten($color-orange, 45%);
+        transition: transform 0.25s;
+        transform: scale(1.1);
+        transform-origin: bottom left;
+      }
     }
   }
 }
