@@ -6,11 +6,18 @@
   @media all and (min-width: 768px) {
     padding: 37px 39px 60px;
   }
+  @media all and (min-width: 1280px) {
+    padding: 65px 275px 60px;
+  }
   &__small {
     color: $color-lightblue;
     font-size: 0.875rem;
     text-transform: capitalize;
     line-height: 2.14;
+    @media all and (min-width: 1280px) {
+      font-size: 1rem;
+      line-height: 1.88;
+    }
   }
   &__h2 {
     font-family: $font-titles;
@@ -21,6 +28,10 @@
     @media all and (min-width: 768px) {
       font-size: 1.625rem;
       line-height: 1.73;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 2rem;
+      line-height: 1.41;
     }
   }
   &__p {
@@ -51,6 +62,9 @@
     }
     @media all and (min-width: 768px) {
       padding: 10.5px 31px;
+    }
+    @media all and (min-width: 1280px) {
+      padding: 10.5px 65.5px;
     }
   }
 }
